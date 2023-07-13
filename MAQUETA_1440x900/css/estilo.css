@@ -1,0 +1,145 @@
+
+*{margin: 0; padding: 0;}
+
+html
+{
+    background: #000;
+}
+body
+{
+    width: 750px;
+    height: 750px;
+    background: orchid;
+    margin: auto;
+}
+header
+{
+    width: 750px;
+    height: 250px;
+    background: aquamarine;
+}
+section#banner
+{
+    width: 500px;
+    height: 250px;
+    background: rgb(176, 0, 0);
+    float: left;
+}
+
+#logo
+{
+    width: 250px;
+    height: 125px;
+    background: #0f0;
+    float: right;
+}
+#login 
+{
+    width: 250px;
+    height: 125px;
+    background: #f2ff00;
+    float: left;
+}
+nav
+{
+    width: 750px;
+    height: 50px;
+    background: #e600ff;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    box-sizing: border-box;
+}
+a
+{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin: auto;
+}
+main
+{
+    width: 750px;
+    height: 400px;
+    background: rgb(251,145,170);
+}
+aside#left
+{
+    width: 150px;
+    height: 400px;
+    background: #00eeff;
+    float: left;
+}
+article
+{
+    width: 500px;
+    height: 400px;
+    background: rgb(152, 244, 152);
+    float: left;
+}
+aside#right
+{
+    width: 100px;
+    height: 400px;
+    background: #f7b2ff;
+    float: right;
+}
+footer
+{
+    width: 750px;
+    height: 100px;
+    background: rgb(13, 255, 0);
+}
+#qr
+{
+    width: 50px;
+    height: 50px;
+    background: #d5fe80;
+    float: left;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px solid #000;
+}
+#foot_izq
+{
+    width: 400px;
+    height: 50px;
+    background: #c0c040;
+    float: left;
+}
+#foot_der
+{
+    width: 300px;
+    height: 100px;
+    background: #c0a040;
+    float: right;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    color: #741e1e;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+#redes
+{
+    padding: 20px;
+}
+
+#redes h3
+{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #741e1e;
+}
+
+#sociales li
+{
+    display: inline;
+}
+ul
+{
+    margin: auto;
+    list-style: none;
+}
